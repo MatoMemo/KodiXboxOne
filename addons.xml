@@ -37,14 +37,14 @@
   </extension>
 </addon>
 
-<addon id="kodi Xbox One" name="[B][COLOR blue]kodi [COLOR green]Xbox One[/COLOR][/B]" version="0.0.2" provider-name="MatoMemo">
+<addon id="[B][COLOR blue]kodi [COLOR green]Xbox One[/COLOR][/B]" name="[B][COLOR red]kodi [COLOR pink]Xbox One[/COLOR][/B]" version="0.0.2" provider-name="[B] [COLOR red]MatoMemo [/COLOR][/B]">
 	<extension point="xbmc.addon.repository" name="kodi Xbox One">
 		<info compressed="false">https://raw.githubusercontent.com/MatoMemo/KodiXboxOne/XboxKodi/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/MatoMemo/KodiXboxOne/XboxKodi/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/MatoMemo/KodiXboxOne/XboxKodi/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>kodi Xbox One</summary>
+		<summary>[B][COLOR blue]kodi [COLOR green]Xbox One[/COLOR][/B]</summary>
 		<description>Melhores Addons do Kodi para Xbox One</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
@@ -78,6 +78,24 @@
 		<forum>none</forum>
 		<source></source>
 		<website></website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.Cypherslocker" name="[COLOR cornflowerblue]Cyphers locker[/COLOR]" version="1.0.4" provider-name="Project Cypher">
+	<extension point="xbmc.addon.repository" name="TheMegaRepo">
+	    <dir>
+			<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://github.com/CypherMediaGIT/CypherRepo/raw/master/cypherrepo/plugins/addons.xml</info>
+		<checksum>https://github.com/CypherMediaGIT/CypherRepo/raw/master/cypherrepo/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/CypherMediaGIT/CypherRepo/raw/master/cypherrepo/plugins</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Cypers Locker Repo - Home to Project Cypher</summary>
+		<description>Cypers Locker Repo - Home to Project Cypher.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
