@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="[B][COLOR blue]kodi [COLOR green]Xbox One[/COLOR][/B]" name="[B][COLOR red]kodi [COLOR pink]Xbox One[/COLOR][/B]" version="0.0.2" provider-name="[B] [COLOR red]MatoMemo [/COLOR][/B]">
+<addon id="kodi Xbox One" name="Kodi repository" version="0.0.2" provider-name="MatoMemo">
 	<extension point="xbmc.addon.repository" name="kodi Xbox One">
-		<info compressed="false">https://raw.githubusercontent.com/MatoMemo/KodiXboxOne/XboxKodi/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/MatoMemo/KodiXboxOne/XboxKodi/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/MatoMemo/KodiXboxOne/XboxKodi/master/repo/</datadir>
+		<info compressed="false">http://raw.github.com/MatoMemo/KodiAddons/master/addons.xml</info>
+		<checksum>http://raw.github.com/MatoMemo/KodiAddons/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/MatoMemo/KodiAddons/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>[B][COLOR blue]kodi [COLOR green]Xbox One[/COLOR][/B]</summary>
-		<description>Melhores Addons do Kodi para Xbox One</description>
+		<summary>kodi Xbox One</summary>
+		<description>Addon Description</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
